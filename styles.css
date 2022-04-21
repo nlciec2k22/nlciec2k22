@@ -242,7 +242,8 @@ li a:hover {
   font-size: 30px;
   font-weight: bolder;
   word-spacing: 2px;
-  color: rgb(223, 221, 222);
+  /* color: rgb(223, 221, 222); */
+  color: #fbf8cc;
 }
 
 @media (max-height: 750px) {
@@ -251,9 +252,6 @@ li a:hover {
   }
   .home-heading {
     height: 100vh;
-  }
-  .home .reg {
-    /* margin-bottom: 500px; */
   }
 }
 
@@ -272,7 +270,7 @@ li a:hover {
 
 @media (min-height: 751px) {
   .home-heading h1 {
-    font-size: 100px;
+    font-size: 70px;
   }
 }
 /* @media (min-width: 743px) {
@@ -337,6 +335,7 @@ nav button {
 .reg {
   text-align: center;
   margin-top: 20px;
+  /* margin-bottom: 100px; */
 }
 
 .reg a {
@@ -480,6 +479,8 @@ nav button {
 .tech {
   position: relative;
   height: max-content;
+  /* height: 100vh; */
+  /* margin-bottom: 200px; */
 }
 
 .tech::after {
@@ -492,7 +493,7 @@ nav button {
   background-size: cover;
   background: -webkit-linear-gradient(to left, #fb8fe0, #4e54c8);
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   opacity: 0.6;
   z-index: -1;
 }
@@ -676,6 +677,18 @@ nav button {
     z-index: 1;
     /* display: none; */
   }
+}
+
+.tech .card:hover small {
+  display: none;
+}
+
+.non-tech .card:hover small {
+  display: none;
+}
+
+.card ul {
+  font-weight: bolder;
 }
 
 /* enroll section  */
@@ -893,12 +906,25 @@ nav button {
 .students {
   margin-bottom: 21px;
 }
+
+@media (min-width: 960px) {
+  .staffs {
+    margin-top: 48px;
+  }
+
+  .phone svg {
+    margin-top: 50px;
+  }
+}
 @media (max-width: 950px) {
   .students {
     margin-left: 60px;
     /* text-align: center; */
     /* justify-content: center; */
     /* align-items: center; */
+  }
+  .phone svg {
+    /* margin-top: 500px; */
   }
 }
 /* scroll btn */
