@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nosifer&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Nosifer&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Ubuntu:wght@400;500;700&display=swap");
 
 /* font-family: 'Lobster', cursive;
 
@@ -8,7 +8,7 @@ font-family: 'Poppins', sans-serif;
 
 font-family: 'Ubuntu', sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans:wght@300;400&family=Nosifer&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans:wght@300;400&family=Nosifer&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Ubuntu:wght@400;500;700&display=swap");
 
 /* font-family: 'Lobster', cursive;
 
@@ -19,21 +19,21 @@ font-family: 'Nosifer', cursive;
 font-family: 'Poppins', sans-serif;
 
 font-family: 'Ubuntu', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans:wght@300;400&family=Nosifer&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Ubuntu:wght@400;500;700&family=UnifrakturMaguntia&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Lobster&family=Merriweather+Sans:wght@300;400&family=Nosifer&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Ubuntu:wght@400;500;700&family=UnifrakturMaguntia&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Lobster&family=Merriweather+Sans:wght@300;400&family=Montserrat:wght@600;700&family=Nosifer&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Ubuntu:wght@400;500;700&family=UnifrakturMaguntia&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans:wght@300;400&family=Nosifer&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Ubuntu:wght@400;500;700&family=UnifrakturMaguntia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Lobster&family=Merriweather+Sans:wght@300;400&family=Nosifer&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Ubuntu:wght@400;500;700&family=UnifrakturMaguntia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Lobster&family=Merriweather+Sans:wght@300;400&family=Montserrat:wght@600;700&family=Nosifer&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Ubuntu:wght@400;500;700&family=UnifrakturMaguntia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
 
 body {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .navbar {
   height: 10vh;
   width: 100%;
   /* background-color: crimson; */
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   z-index: 999;
   /* display: flex; */
   /* justify-content: space-around; */
@@ -156,7 +156,7 @@ li a:hover {
   color: white;
   font-weight: 900;
   letter-spacing: 5px;
-  font-family: 'Fredericka the Great', cursive;
+  font-family: "Fredericka the Great", cursive;
 }
 
 .navbar-brand .slogan {
@@ -216,7 +216,7 @@ li a:hover {
   text-decoration: double;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   /* font-family: 'Abril Fatface', cursive; */
 }
 
@@ -484,7 +484,7 @@ nav button {
 }
 
 .tech::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -629,7 +629,7 @@ nav button {
 }
 
 .non-tech::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -936,7 +936,7 @@ nav button {
   width: 30px;
   /* background: rgba(211, 211, 211, 0.288); */
   /* background: crimson; */
-  fill: crimson;
+  fill: blue;
   right: 30px;
   bottom: 30px;
 }
@@ -947,7 +947,7 @@ nav button {
 }
 
 .scroll-up-btn svg:hover {
-  fill: blue;
+  fill: crimson;
 }
 
 html,
@@ -1240,7 +1240,7 @@ body {
 }
 .ani::after {
   /* useful when its child elements are float:left; */
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
